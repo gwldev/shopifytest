@@ -52,7 +52,7 @@
                   {% assign current_variant = product.selected_or_first_available_variant %}
 
                   <p class="sku-detail">SKU: <span class="variant-sku">{{ current_variant.sku }}</span></p>
-                  <p class="results">Adding item to the cart ...</p>
+                  <p class="results"></p>
                   <div class="product-cart-bottom-section d-flex">
                     <form action="/cart/add" data-productid="{{product.id}}" method="post" class="product-form" id="AddToCartForm">
                       <div class="quantity buttons_added product-umber">
